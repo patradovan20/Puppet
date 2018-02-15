@@ -1,9 +1,9 @@
 #####create User
 
 class create_user{
-	user { 'sample':
+	user { 'monitor':
   		ensure           => 'present',
- 		home             => "/home/sample",
+ 		home             => "/home/monitor",
   		password         => 'password1',
  		shell            => '/bin/bash',
 	      }
